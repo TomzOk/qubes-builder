@@ -925,4 +925,6 @@ install-deps.dpkg::
 .PHONY: about
 about::
 	@echo "Makefile"
+	@echo ${BRANCH_vmm_xen}
+	@echo ${BRANCH_builder_archlinux}
 
